@@ -1,0 +1,108 @@
+<style>
+      body {
+        margin: 10;
+        padding: 0;
+		font-family: georgia;
+      }
+      .header {
+        padding: 1px;
+        text-align: center;
+		color:white;
+		font-family:cursive;
+		font-size:30px;
+		background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url(header.png);
+		background-position: center;
+		background-size: cover;
+		position:relative;
+      }
+	  .content1 {
+		background-color: #003366;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+		}
+      .contents {
+		background-color:white;
+        display: flex;
+        justify-content: space-between;
+		border-radius:10px;
+		border-style:none;
+      }
+      .contents a{
+    color: black;
+	font-weight:bold;
+    text-decoration: none;
+    padding: 10px;
+	border-style:none;
+}
+  .contents:hover {
+	background-color: lightgray;
+	color:white;
+  }
+      .content {
+  padding:10px;
+  align-items: center;
+  font-family:georgia;
+  background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url(AI.png);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  color:white;
+	  }
+	  .sub-topic{
+		  font-family:georgia;
+		  text-align:center;
+	  }
+.subtopic-1 {
+	  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  margin-left: 50px;
+}
+.img {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.defn-img {
+  width: 300px;
+  height : 300px;
+  object-fit: cover;
+  object-position: right;
+    border-radius:10px;
+  }
+  .history-img {
+ display:flex;
+ justify-content:center;
+ margin: 10px;
+  }
+ .types-img 
+ {
+ width:450px;
+   border-radius:10px;
+ }
+ .applications-img {
+ width:700px;
+   border-radius:10px;
+ }
+ .about-us {
+	   padding:100px;
+  align-items: center;
+  font-family:georgia;
+  background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url(about-us.png);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  color:white;
+ }
+.footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+		display:block;
+		font-family:arial;
+      }
+  
+</style>
